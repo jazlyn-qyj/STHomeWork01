@@ -1,11 +1,11 @@
 package qyj;
-import java.io.*;
-public class Student {
+public class Student 
+{
 	private int ID;
-	private String name;//姓名
-	private String birthday;//出生日期
-	private String gender;//性别
-	private int  grade;//年级
+	private String name;//濮撳悕
+	private String birthday;//鍑虹敓鏃ユ湡
+	private String gender;//鎬у埆
+	private int  grade;//骞寸骇
 	
 	public Student()
 	{
@@ -21,37 +21,48 @@ public class Student {
 		this.grade=garde;
 	}
 	
-	public int getID() {
+	public int getID() 
+	{
 		return ID;
 	}
-	public void setID(int iD) {
+	public void setID(int iD) 
+	{
 		ID = iD;
 	}
-	public String getName() {
+	public String getName() 
+	{
 		return name;
 	}
-	public void setName(String name) {
+	public void setName(String name) 
+	{
 		this.name = name;
 	}
-	public String getBirthday() {
+	public String getBirthday() 
+	{
 		return birthday;
 	}
-	public void setBirthday(String birthday) {
+	public void setBirthday(String birthday) 
+	{
 		this.birthday = birthday;
 	}
-	public String getGender() {
+	public String getGender() 
+	{
 		return gender;
 	}
-	public void setGender(String gender) {
+	public void setGender(String gender) 
+	{
 		this.gender = gender;
 	}
-	public int getGrade() {
+	public int getGrade() 
+	{
 		return grade;
 	}
-	public void setGrade(int grade) {
+	public void setGrade(int grade) 
+	{
 		this.grade = grade;
 	}
-	public String fileString() {
+	public String fileString() 
+	{
 		return  ID + " " +name + " " + birthday+" " 
 		+ gender + " " + grade;
 	}
